@@ -1,0 +1,227 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* --------------------------------header section-------------------------*/
+header{
+    background-color: white;
+    padding-left: 10vw;
+    display:flex;
+    align-items:center;
+    height:8vh;
+    font-size: 2.5rem;
+}
+
+/*----------------------------------hero section------------------------------------*/
+.hero{
+    background-color: rgb(245, 241, 241);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:1.2vh;
+    padding-bottom:2vh;
+    padding-left:15vw;
+    padding-right:15vw;
+    height:60vh;
+    width:100%;
+    line-height: 1.5rem;
+}
+
+.hero .hero-image img{
+    height:52vh;
+    width:30vw;
+    font-size:larger;
+    font-weight:70;
+    padding-left:5%;
+    padding-top:2%;
+}
+
+.hero-information{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:30vw;
+    height:50vh;
+    font-size:1.2rem;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:2%;
+    background-color: white;
+    line-height: 1.5rem;
+}
+.hero .hero-information p span, .hero .hero-information h2 span{
+    display:block;
+}
+
+.hero .hero-information button{
+    background-color:black;
+    color:white;
+}
+
+.hero .hero-information button .firstbutton{
+    background-color:rgb(63, 62, 62);
+}
+
+.hero .hero-information h2, .hero .hero-information p, .hero .hero-information button{
+    padding-bottom:2%;
+}
+
+.hero .hero-information .firstbutton{
+    margin-bottom:1.5%;
+}
+.hero .hero-information button{
+    display:flex;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left:5%;
+    height:2rem;
+    font-size: 1rem;
+}
+
+.hero .hero-information button i{
+    padding-right:2%;
+}
+
+.hero .hero-information p{
+    color:rgb(128, 128, 128);
+}
+
+/*------------------------------------section-1 -----------------------------------*/
+.section-1{
+    background-color: white;
+    height:50vh;
+}
+
+.section-heading{
+    display:flex;
+    justify-content: center;
+    padding-top:7vh;
+    padding-bottom:7vh;
+    font-size: 2rem;
+}
+
+.section-info{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding-right:2rem;
+    line-height: 1.5rem;
+}
+
+.section-info i{
+    background-color: rgb(252, 227, 211);
+    color:rgb(231, 130, 36);
+    height:3.5rem;
+    width:3.5rem;
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.section-1 .section-info p span{
+    display:flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 .first, .second, .third{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-right:4vw;
+}
+
+.section-1 h5{
+    font-size: 1.2rem;
+    color:rgb(53, 49, 49);
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    color:rgb(117, 113, 113);
+}
+
+/*-----------------------------------section-2--------------------------*/
+.section-2{
+    height:40vh;
+    background-color: rgb(247, 232, 235);
+    display:flex;
+    direction:column;
+    align-items:center;
+    justify-content: center;
+    line-height: 1.5rem;
+    align-content: space-between;
+}
+
+.section-2 .section-2-info .section-2-button1{
+    background-color: rgb(248, 225, 181);
+    color:rgb(245, 161, 7);
+    border-radius:20px;
+    font-size: 1.2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    border: none;
+    height:1rem;
+    padding:2% 5% 2% 5%;
+}
+
+.section-2 .section-2-info .section2-head{
+    font-size: 1.5rem;
+    display:flex;
+    justify-content:center;
+    padding:1.2rem;
+}
+
+.section-2 .section-2-info button{
+    background-color:orange;
+    color:white;
+    display:flex;
+    justify-content:center;
+    border:none;
+    padding:0.7% 2%;
+    margin-left: 40%;
+    font-size: 1.1rem;
+    margin-top:1.1rem;
+}
+
+.section-2 .section-2-info .section2-content p{
+    font-size: 1.1rem;
+    color:rgb(128, 128, 128);
+}
+
+.section-2 .section-2-info .section2-content p span{
+    display:flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-----------------------------------------footer-----------------------------------*/
+.footer{
+    background-color:rgb(231, 227, 227);
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:2% 5% 2% 10%;
+}
+
+.footer .p1{
+    padding-right:40%;
+}
+
+.footer .p2{
+    padding-right:2%;
+    color:rgb(170, 112, 5);
+}
